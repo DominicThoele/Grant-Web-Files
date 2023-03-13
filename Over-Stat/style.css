@@ -1,0 +1,133 @@
+body {
+  font-family: segoe ui, Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #32383f;
+  text-align: center;
+}
+header {
+  background-color: orange;
+}
+nav {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: auto;
+}
+button {
+  background-color: #4169e1;
+  color: #fff;
+  border-width: 0;
+  font-size: large;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 15%;
+}
+.nav-active {
+  font-weight: 700;
+  border-color: #000;
+}
+.banner {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  font-stretch: normal;
+}
+.ul-nav-inline {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: left;
+  list-style-type: none;
+}
+.role-section {
+  padding: 25px;
+  border: 2px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #32383f;
+  text-align: center;
+}
+
+header {
+  background-color: orange;
+}
+
+nav {
+  border-radius: 30px; /* change the value to adjust the roundedness */
+  background-color: #eee; /* add a background color */
+}
+
+nav::before {
+  content: "";
+  border-radius: 50%/10px;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+button {
+  background-color: royalblue;
+  color: white;
+  border-width: 0ch;
+  font-size: large;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 15%;
+}
+
+input[type="submit"] {
+  background-color: royalblue;
+  color: white;
+  border-width: 0ch;
+  font-size: large;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 15%;
+}
+
+label {
+  width: 240px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-active {
+  font-weight: bold;
+  border-color: black;
+}
+
+.banner {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  font-stretch: normal;
+}
+
+.ul-nav-inline {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: left;
+  list-style-type: none;
+}
+
+.role-section {
+  padding: 25px;
+  border: 2px;
+}
+
+.enter-data {
+  background: #fbfafa;
+  color: black;
+  text-shadow: 1px 1px 2px #909090;
+  padding: 10px;
+  margin: 10px 20%;
+  border-radius: 1%;
+}
